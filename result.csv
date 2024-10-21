@@ -1,0 +1,44 @@
+Model,Time In Seconds,Place Availability,ActivityLevel,Atmosphere & Comfort,Customization Options,General Sentiment,Hygiene & Compliance,Price & Fairness,Product Quality,Restrictions,Safety & Trust,Service Quality,Specialization/Customer Need or Interest,Target Audience,Timing,Uniqueness,Consistency
+llama3.2,6,"Sent: 3,
+Score: -1,
+Fact: They were out of the steak I wanted.",No extracted fact for this category or data was in wrong format.,"Sent: 5,
+Score: -1,
+Fact: The restaurant was too hot",No extracted fact for this category or data was in wrong format.,"Sent: 4,
+Score: -1,
+Fact: Food was just no good.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 5,
+Score: -1,
+Fact: The food was overcooked and tasteless. We ordered two skirt steaks and they were super chewy, overdone and not seasoned. The Branzino had no flavor.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 4,
+Score: -1,
+Fact: The staff was rude.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.
+llama3.2:3b-text-q8_0,0,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.
+qwen2.5:0.5b,2,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.
+qwen2.5:1.5b,4,"Sent: 5,
+Score: -1,
+Fact: They didn’t have the AC on.",No extracted fact for this category or data was in wrong format.,"Sent: 2,
+Score: -1,
+Fact: They didn’t have the AC on.",No extracted fact for this category or data was in wrong format.,"Sent: 3,
+Score: -1,
+Fact: The food was just no good",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 3,
+Score: -1,
+Fact: The food was super chewy and not seasoned",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 3,
+Score: -1,
+Fact: The staff was rude",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.
+qwen2.5:3b,1,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 3,
+Score: -1,
+Fact: The place was so hot",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 5,
+Score: -1,
+Fact: Food was just no good.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.
+qwen2.5:7b,2,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 4,
+Score: -1,
+Fact: The place was so hot and they didn’t have the AC on.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 5,
+Score: -1,
+Fact: Bread was stale. Dead bug on the menu. We ordered two skirt steaks and they were super chewy, overdone and not seasoned. The Branzino had no flavor. Food was just no good.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.
+qwen2.5:14b,51,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 5,
+Score: -1,
+Fact: The place was so hot and they didn’t have the AC on.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,"Sent: 4,
+Score: -1,
+Fact: Dead bug on the menu.",No extracted fact for this category or data was in wrong format.,"Sent: 3,
+Score: -1,
+Fact: The Branzino had no flavor.",No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.,No extracted fact for this category or data was in wrong format.
+
+Review: ,"Bread was stale. Dead bug on the menu. We ordered two skirt steaks and they were super chewy, overdone and not seasoned. The Branzino had no flavor. Food was just no good. The place was so hot and they didn’t have the AC on."
