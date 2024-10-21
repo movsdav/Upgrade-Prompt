@@ -125,7 +125,7 @@ def run_models(models, review, model_responses_store: list = []):
 
         print(f"======================== End of model {model} ==========================")
         result.append(model_result)
-    return result
+    return {"review": review, "result": result}
 
 def get_most_fast_model_response(*model_responses):
     result = []
@@ -172,8 +172,6 @@ comment = """Bread was stale. Dead bug on the menu. We ordered two skirt steaks 
 models = ['llama3.2', 'llama3.2:3b-text-q8_0', 'qwen2.5:0.5b', 'qwen2.5:1.5b', 'qwen2.5:3b', 'qwen2.5:7b',
           'qwen2.5:14b']
 
-# current_prompt = prompt_new_2.replace("{{review}}", comment)
-
 how_many_time_to_repeat = 3
 
 with open('mixed_reviews_array.json', 'r') as f:
@@ -188,12 +186,12 @@ with open('mixed_reviews_array.json', 'r') as f:
 
 result = run_models(models, comment)
 
-most_fast_results = get_most_fast_model_response(*result)
+most_fast_results = get_most_fast_model_response(*result['result'])
 
 data_for_csv = process_json(most_fast_results)
 
 data_for_csv.append([])
-data_for_csv.append(['Review: ', comment])
+data_for_csv.append(['Review: ', result['review']])
 
 with open('result.csv', mode='w', newline='') as file:
     writer = csv.writer(file)
